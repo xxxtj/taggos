@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <title>Free Tag Management System - Track user activities on website</title>
     <meta name="keywords" content="tagging, tag system, tag management system, user activities">
-    <meta name="description" content="Tag and track all user activity on website without coding">
+    <meta name="description" content="Tag and track all user activities on website without coding">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon.ico">
-
+    <meta property="og:image" content="https://www.taggos.com/assets/img/smm.png" />
     <meta property="og:title" content="Track user activities on website without coding">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.taggos.com/">
     <meta property="og:site_name" content="Taggos">
-    <meta property="og:description" content="Tag and track all user activity on website without coding">
+    <meta property="og:description" content="Tag and track all user activities on website without coding">
 
     <!-- Styles -->
     <link rel="stylesheet" href="/assets/home/css/font-awesome.min.css">
@@ -275,7 +275,7 @@
                 </div>
                 <div class="col-sm-8 col-sm-offset-2 text-center">
                     <br /> 
-                    <p class="black">This a free tag management tool to track activity on your website or mobile applcation without coding. The only thing that you have to know it is a basic CSS and jQuery syntax.</p>
+                    <p class="black">This a free tag management tool to track activity on your website or mobile application without coding. The only thing that you have to know it is a basic CSS and jQuery syntax.</p>
                     <br />
                     <p class="black">We provide unlimited elements that may be tracked. Unlimited attributes. Unlimited websites. Download CSV or check your reports online.</p>
 
@@ -317,7 +317,7 @@
                         <div class="panel-body">
                              <h5><span class="label label-primary">Answer</span></h5>
 
-                            <p>Taggos allow you easily to create tagging campaign to track all user activities on your website or mobile app without coding. Just create project, add elements that you would like to track, select one of the actions and add variables, attributes etc. you want capture with this action. 
+                            <p>Taggos allow you easily to create tagging campaign to track all user activities on your website or mobile app without coding. Just create project, add elements that you would like to track, select one of the actions and add variables, attributes etc. you want to capture with this action. 
                                 </p>
                         </div>
                     </div>
@@ -349,7 +349,7 @@
                              <h5><span class="label label-primary">Answer</span></h5>
 
                             <p>All You need to know  is some <b>CSS</b> selectors and basic <b>jQuery</b> syntax. </p>
-                            <p>If you know what does mean:  <pre style="padding: 0px;"><code>$(this).attr('href');</code></pre>
+                            <p>If you understand what does mean:  <pre style="padding: 0px;"><code>$(this).attr('href');</code></pre>
                             <pre style="padding: 0px;"><code>a#element</code></pre>
                             <pre style="padding: 0px;"><code>$(this).parent().parent().find('.find-me').attr('data-attr');</code></pre>
                             <pre style="padding: 0px;"><code>div.element > a.link</code></pre></p>

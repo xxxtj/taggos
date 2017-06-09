@@ -10,6 +10,9 @@ class SafeMySQL
 
 	private $defaults = array(
 		'host'      => 'localhost',
+		// 'user'      => 'taggos',
+		// 'pass'      => 'J@s+JUo4ryxn',
+		// 'db'        => 'taggos',
 		'user'      => 'root',
 		'pass'      => 'root',
 		'db'        => 'tag',

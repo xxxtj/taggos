@@ -6,9 +6,17 @@ ini_set('max_execution_time', 0);
 ini_set('display_errors', 1);  
 
 require_once 'app/func.inc.php'; 
-// if(!preg_match('/www/', $_SERVER['HTTP_HOST']))
-// {
+// if(preg_match('/\/mZgXaZ4otCYq6WR0kizJVzw7zYufXo67bcV9ZNogfcwcWe26kqD5NZ1dMjgz/', $_SERVER['REQUEST_URI']) )
+// {   
+// }elseif(!preg_match('/www/', $_SERVER['HTTP_HOST']) && !isset($_SERVER['HTTPS'])  ){
 //   redirect('https://www.'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+// }
+// elseif(preg_match('/www/', $_SERVER['HTTP_HOST']) && !isset($_SERVER['HTTPS'])){
+//    redirect('https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+// }
+
+// elseif(!preg_match('/www/', $_SERVER['HTTP_HOST']) && isset($_SERVER['HTTPS'])){
+//    redirect('https://www.'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 // }
 require_once 'app/files.class.php';
 require_once 'app/view.class.php';
