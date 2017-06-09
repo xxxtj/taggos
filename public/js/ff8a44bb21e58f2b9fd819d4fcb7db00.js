@@ -1,0 +1,1 @@
+var v449dbc5a6c59bfe6bdf4c3d69efc01fd = jQuery; v449dbc5a6c59bfe6bdf4c3d69efc01fd("body").on("click", "button.add", function() {v449dbc5a6c59bfe6bdf4c3d69efc01fd.ajax({url: '//tag.dev/mZgXaZ4otCYq6WR0kizJVzw7zYufXo67bcV9ZNogfcwcWe26kqD5NZ1dMjgz?c=ff8a44bb21e58f2b9fd819d4fcb7db00&s=c031738d0f4aa0d842983f9142c193dd'});});
